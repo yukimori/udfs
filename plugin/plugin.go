@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"gopkg.in/sensorbee/sensorbee.v0/bql"
+//	"gopkg.in/sensorbee/sensorbee.v0/bql"
 	"gopkg.in/sensorbee/sensorbee.v0/bql/udf"
-//	"github.com/yukimori/udfs"
+	"github.com/yukimori/udfs"
 )
 
 func init() {
