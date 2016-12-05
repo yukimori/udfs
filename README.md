@@ -8,6 +8,9 @@ udf.MustRegisterGlobalUDF("my_inc", udf.MustConvertGeneric(udfs.Inc))
 - inc.go
 - plugin/plugin.go
 
-goのパッケージとしてダウンロードし、
-config/build.yamlを指定して（もしくは同ディレクトリで）build_sensorbeeを実行することで、
-プラグインを組み込んだsensorbeeバイナリが作成できる
+go get github.com/yukimori/udfs
+ goのパッケージとしてダウンロードし、
+
+build_sensorbee
+ config/build.yamlを指定して（もしくは同ディレクトリで）build_sensorbeeを実行することで、
+ プラグインを組み込んだsensorbeeバイナリが作成できる
